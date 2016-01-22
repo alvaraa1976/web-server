@@ -29,7 +29,7 @@ app.use(middleware.logger);
 
 //route-specific middleware
 app.get('/about', middleware.requireAuthentication, function (req, res) {
-    res.send('About Us');
+    res.send('About The Site');
 })
 
 //expose entire public folder
